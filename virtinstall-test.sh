@@ -4,7 +4,7 @@
 
 # Collect variables:
 read -p "Virtual Machine Name: " NAME && echo "Configuring VM Name as: $NAME"
-read -p "Allocated RAN: " RAM && echo "Configuring VM Memory Allocation of: $RAM"
+read -p "Allocated RAM: " RAM && echo "Configuring VM Memory Allocation of: $RAM"
 read -p "Storage Path: " PATH && echo "Creating VM Disks at: $PATH"
 read -p "Virtual CPUs: " VCPU && echo "Configuring VM CPU type as: $VCPU"
 read -p "OS Type: " OS_TYPE && echo "Installing as OS Type: $OS_TYPE"
